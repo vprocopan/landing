@@ -1,0 +1,27 @@
+title: "Intercode — Software Crafted for the Future"
+description: "Intercode builds high-performance web, mobile, and AI-powered software for startups and enterprises worldwide."
+url: "https://intercode.company"
+baseurl: ""
+
+email: hello@intercode.company
+company_name: Intercode
+
+# Build settings
+markdown: kramdown
+theme: null
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .bundle
+  - README.md
+
+# Sass (if using)
+sass:
+  style: compressed
